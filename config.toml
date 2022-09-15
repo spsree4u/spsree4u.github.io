@@ -15,3 +15,7 @@ theme = "hugo-theme-console"
   [[params.navlinks]]
   name = "projects/"
   url = "projects/"
+  
+  [[params.navlinks]]
+  name = "pages/"
+  url = "pages/"
