@@ -21,7 +21,7 @@ Proffessional projects
 
 ***CohortBuilder***	Development of Marketing based web application called CohortBuilder and test framework and deployment activities
 
-*Tech stack:* Python, Django, React, AWS, Jenkins, Terraform
+*Tech stack:* Python, Django, React, PostgreSQL, Amazon Redshift, AWS, Jenkins, Terraform
 
 ***SEPC***	Development of the Mac Enterprise Security product Symantec Endpoint Protection Cloud: Implemented the components Events and OpState
 
@@ -37,9 +37,9 @@ Proffessional projects
 
 ***BSCMT***	Development of automation framework and testing of Risk data calculator of a popular American based Bank: Implemented tools for analysing Risk Weight Asset and Manual Adjustment validation
 
-*Tech stack:* Python
+*Tech stack:* Python, Netezza
 
 ***ConfigurationDesk***	Development of automation framework and testing of the product ConfigurationDesk from one of the German automotive firm
 
-*Tech stack:* Python, C#
+*Tech stack:* Python, C#, MATLAB/Simulink
 
