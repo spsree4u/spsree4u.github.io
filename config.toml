@@ -10,12 +10,8 @@ theme = "hugo-theme-console"
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated zoomIn fast"
+  animateStyle = "animated zoomIn slow"
 
   [[params.navlinks]]
-  name = "projects/"
+  name = "projects"
   url = "projects/"
-  
-  [[params.navlinks]]
-  name = "pages/"
-  url = "pages/"
