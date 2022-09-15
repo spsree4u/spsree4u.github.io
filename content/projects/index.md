@@ -1,6 +1,6 @@
 
 
-Here are some of the projects I have worked on
+**Here are some of the projects I have worked on**
 
 ---
 Personal projects
