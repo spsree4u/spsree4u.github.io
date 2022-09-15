@@ -1,7 +1,4 @@
----
-title: "Projects"
-date: 2022-09-04T21:58:56+05:30
-draft: true
+
 ---
 Here are some of the projects I have worked on
 
