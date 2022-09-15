@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+<h1>Hey there!</h1>
+
+<p>
+My name is Sreejith.
+<br><br>
+I am a software engineer by profession, and I've worked on different technologies throughout my career for nearly ten years.
+I can read and write Python, Java, C++, Javascript, and C#. However, since I've worked predominantly on Python, I'd say I can <b>"speak"</b> Python too. &#128526;
+<br>
+Hence, there is always an inclination (well! ~80&#730;:)) towards Python when it comes to my interests.
+My other interests include Mathematics (always curious about the links and connections between Mathematics and Computer Science), ML/AI, Object Oriented Concepts, and Algorithms/Datastructures.
+<br><br>
+
+On a personal level, I enjoy listening to music of all genres, gardening (a big fan of nature), traveling, watching movies, and learning new languages. Being an admirer of Indian classical music, I do enjoy learning and talking about the same.
+Others say that I am a good observer and I ask a lot of questions until I am clear on something I don't know.
+<br><br>
+Connect with me <a href="https://www.linkedin.com/in/sreejith-puthanveedu">here</a>.
+</p>
+<br/>
+
+<!-- <h1>Latest posts</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/posts" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+<h1>Latest photos</h1>
+
+<div class="image-grid">
+{{ with .Site.GetPage "/photos" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc")}}
+        <a href="{{ .Permalink }}" title="{{ .Title }}">
+        {{ $image := .Page.Resources.GetMatch .Params.image }}
+        {{ with $image }}
+            {{ $thumb := .Resize "400x" }}
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+        {{end}}
+        </a>
+    {{ end }}
+{{ end }}
+</div> -->
+
+{{ end }}
