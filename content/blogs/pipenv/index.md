@@ -4,40 +4,40 @@ date = "2022-09-22T13:52:22+05:30"
 lastmod = "2022-10-06T13:52:22+05:30"
 +++
 
-I felt this is a good article for any Python engineers to know. And if you are going through my projects, you may end up seeing the setup using pipenv. 
+I feel this is a good article for any Python engineer to know. And if you are going through my projects, you may end up seeing the setup using pipenv.
 
-If you don't want to read it all, feel free to navigate through sections
+If you don’t want to read it all, feel free to navigate through sections.
 
-**[What is pipenv and it's uses](#an-intro-to-pipenv-and-pipfiles)**  
+**[What is pipenv and its uses](#an-intro-to-pipenv-and-pipfiles)**  
 **[Useful pipenv commands](#useful-pipenv-commands)**  
 **[Use case scenarios](#use-case-scenarios)**
 
 # An intro to pipenv and pipfiles
-Pipenv is a strong tool to help with the package management and virtual environment creation in a python based project. This actually combines the old coventional way of doing the same with requirements file, pip and virtualenv.  Here are some of the advantages of using pipenv.
+Pipenv is a strong tool to help with package management and virtual environment creation in a Python-based project. This actually combines the old conventional way of doing the same with requirements file, pip and virtualenv. Here are some of the advantages of using pipenv.
 
-1. Combines virtual environment creation and package installations together
-2. Can create multiple environments with different python versions very easily
-3. Package dependencies are automatically handled, so addition or deletion of packages is very easy
-4. Provision to distinguish dev and production requirements
-5. Can easily convert existing old system (requirements.txt file and virtualsenv) to pipenv system
-6. It is possible to view the security vulnerabilities in the packages used using a single command
+1. It combines virtual environment creation and package installations together.
+2. It can be used to create multiple environments with different Python versions very easily.
+3. Package dependencies are automatically handled, so the addition or deletion of packages is very easy.
+4. It provides provision for distinguishing between development and production requirements.
+5. Existing old system (requirements.txt file and virtualenv) can be easily converted to pipenv system.
+6. It is possible to view the security vulnerabilities in the used packages using a single command.
 
-Now let's start with installing pipenv first. To install pipenv: 
+Now let’s start by installing pipenv first. To install pipenv, use pip as below.
 ```
 pip install pipenv
 ```
 
-Below section contains the most useful commands associated with pipenv. Before going through these commands, let's understand what Pipfiles are.
+The below section contains the most useful commands associated with pipenv. Before going through these commands, let’s understand what Pipfiles are.
 
 * Pipfile:
-    - This file contain the packages and dependencies. This will be used for creating the virtual environement.
-    - The file is in TOML format (key-value pairs within different sections)
+    - This file contains the packages and dependencies. This will be used for creating the virtual environment.
+    - The file is in TOML format (key-value pairs within different sections).
 * Pipfile.lock:
-    - This file is same as Pipfile, but will be the final file used in Production systems
-    - The file is in json format with package version mentioned inside
-    - We can finalize lock file once verified that the versions are working fine in dev
+    - This file is the same as the Pipfile but will be the final file used in production systems.
+    - The file is in JSON format with the package version mentioned inside.
+    - We can finalise the lock file once we verify that the versions are working fine in dev.
 
-NOTE: These files will be created or needs to be present where pipenv commands are being used
+NOTE: These files will be created or need to be present where pipenv commands are being used.
 
 # Useful pipenv commands
 
