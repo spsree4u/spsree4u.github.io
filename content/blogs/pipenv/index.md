@@ -114,5 +114,3 @@ pipenv run <command>
 # And finally, remove virtual environment after it's use
 pipenv --rm 
 ```
-
-**Last modified: 2022-10-06**
