@@ -8,7 +8,7 @@ Personal projects
 # [Flash Card App](https://github.com/spsree4u/flash_card_application)
 A Flash Card application. Can be used to learn different languages with current data
 
-*Tech stack:* Python Flask, Vue, Celery
+*Tech stack:* Python with Flask, Vue, Redis
 
 # [Staircase Generator](https://github.com/spsree4u/staircase_generator)
 A python utility for generating patterns of musical notes called staircase
