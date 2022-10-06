@@ -2,7 +2,6 @@
 title: "Start with pipenv"
 date: 2022-09-22T13:52:22+05:30
 draft: true
-lastmod: 2022-10-06T13:52:22+05:30
 ---
 
 I felt this is a good article for any Python engineers to know. And if you are going through my projects, you may end up seeing the setup using pipenv. 
