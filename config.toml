@@ -2,7 +2,6 @@ baseURL = 'https://spsree4u.github.io'
 languageCode = 'en-us'
 title = 'sreejith_puthanveedu'
 theme = "hugo-theme-console"
-enableGitInfo = true
 
 [params]
 
@@ -20,7 +19,3 @@ enableGitInfo = true
   [[params.navlinks]]
   name = "blogs"
   url = "blogs/"
-
-
-[frontmatter]
-  lastmod = ["lastmod", ":git", "date", "publishDate"]
